@@ -2,10 +2,12 @@
 # See README.md for instructions on how to do this
 def fizzbuzz(int)
   if int % 3 == 0
-return fizz_3
+"fizz"
+elsif int % 5 == 0
+  "buzz"
+elsif int % 15 == 0
+  "fizzbuzz"
 
 
-
-end
 end
 end
